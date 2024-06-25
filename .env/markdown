@@ -1,0 +1,13 @@
+
+- **MONGODB_URI**: The connection string for MongoDB.
+- **JWT_SECRET**: The secret key used to sign and verify JWT tokens.
+- **PORT**: The port on which the server runs.
+
+### Summary
+
+- **Farmer Registration and Login**: Provides endpoints for farmers to register and log in, storing hashed passwords securely and generating JWT tokens for authentication.
+- **Chicken Listings**: Allows farmers to add chicken listings and fetches listings either for all farmers or a specific farmer.
+- **Token Verification**: Middleware to protect routes, ensuring that only authenticated farmers can access certain endpoints.
+- **Database Interaction**: Uses Mongoose to interact with MongoDB, defining schemas and models for farmers and chicken listings.
+
+This setup provides a robust backend for the chicken portfolio application, ready to be integrated with a React frontend for a complete full-stack application.

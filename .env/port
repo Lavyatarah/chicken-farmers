@@ -1,0 +1,20 @@
+
+- **Express Setup**: 
+  - Initializes an Express application.
+  - Uses `express.json()` to parse JSON request bodies.
+  - Uses `cors()` to enable Cross-Origin Resource Sharing.
+
+- **MongoDB Connection**: 
+  - Connects to MongoDB using Mongoose with the connection string from the environment variables.
+  - Logs connection status to the console.
+
+- **Routes**: 
+  - Imports and uses the `farmer` and `chicken` routes.
+
+- **Start Server**: 
+  - Starts the server on the port specified in the environment variables or defaults to 5000.
+
+### Environment Variables
+
+**.env**:
+
